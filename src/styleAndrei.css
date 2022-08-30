@@ -1,0 +1,143 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Karla:wght@700&family=Rubik+Glitch&display=swap');
+
+/* * {
+    box-sizing: border-box;
+} */
+
+body {
+    background-color: #4A4A4A;
+}
+
+.page--container {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    margin: auto;
+    background-color: #181A1D;
+    border-radius: 10px;
+}
+
+/* Info section */
+.nav--info {
+    text-align: center;
+    width: 100%;
+}
+
+.profile--photo {
+    width: 100%;
+    height: 395px;
+    object-fit: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.nav--info > h1 {
+    color: #F7F8F8;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.nav--info > h4 {
+    color: #826155;
+    margin: 0;
+}
+
+.info--email, 
+.info--linkedin {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.info--email {
+    background-color: #FFFFFF;
+    text-decoration: none;
+    color: #000000;
+}
+
+.info--linkedin {
+    background-color: #0C4FB4;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.info--email > span, 
+.info--linkedin > span {
+    display: inline-flex;
+    padding: 5px;
+}
+
+/* Main section */
+.main--container {
+    padding: 0 60px;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.main--container > div > p {
+    font-size: small;
+    line-height: 1.6;
+    margin-top: -18px;
+    color: #d9d3d3;
+}
+
+/* Footer section */
+.footer--container {
+    width: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #101012;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    align-items: center;
+}
+
+.footer--github {
+    font-size: 50px;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #66656B;
+    margin-top: 10px;
+}
+
+.text--github {
+    color: #66656B;
+    margin-left: 20px;
+    padding-right: 10px;
+}
+
+.footer--github_content {
+    display: inline-flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.footer--socialmedias_content > .footer--socialmedias_icons {
+    display: inline-flex;
+    align-items: center;
+    font-size: 50px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.fb_icon, 
+.insta_icon {
+    color: #66656B;
+}
+
+.vertical--line {
+    border-left: 6px solid #363636;
+    height: 50px;
+}
