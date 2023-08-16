@@ -1,4 +1,5 @@
 # My-business-card-project
+(Note that is just an example, personal informations and CV are not real here)
 Quick start:
 
 ```
